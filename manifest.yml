@@ -1,0 +1,8 @@
+---
+applications:
+  - name: rest-cloud-endpoint
+    instances: 1
+    memory: 512m
+    path: target/Spring_boot_starter-1.0-SNAPSHOT.jar
+    domain: cfapps.io
+    
